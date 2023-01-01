@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <!-- Uncomment for enabling the observer for BORDERLINE recommendation
+    <event name="forter_recommendation_borderline">
+      <observer name="forter_recommendation_borderline" instance="Forter\RecommendationsHandler\Observer\BorderlineObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for DECLINE_CHANEL_ABUSER recommendation
+    <event name="forter_recommendation_decline_chanel_abuser">
+      <observer name="forter_recommendation_decline_chanel_abuser" instance="Forter\RecommendationsHandler\Observer\DeclineChanelAbuserObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for ID_VERIFICATION_REQUIRED recommendation
+    <event name="forter_recommendation_id_verification_required">
+      <observer name="forter_recommendation_id_verification_required" instance="Forter\RecommendationsHandler\Observer\IdVerificationRequiredObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for MONITOR_POTENTIAL_COUPON_ABUSE recommendation
+    <event name="forter_recommendation_monitor_potential_coupon_abuse">
+      <observer name="forter_recommendation_monitor_potential_coupon_abuse" instance="Forter\RecommendationsHandler\Observer\MonitorPotentialCouponAbuseObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for MONITOR_POTENTIAL_REFUND_ABUSE recommendation
+    <event name="forter_recommendation_monitor_potential_refund_abuse">
+      <observer name="forter_recommendation_monitor_potential_refund_abuse" instance="Forter\RecommendationsHandler\Observer\MonitorPotentialRefundAbuseObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for MONITOR_POTENTIAL_SELLER_COLLUSION_ABUSE recommendation
+    <event name="forter_recommendation_monitor_potential_seller_collusion">
+      <observer name="forter_recommendation_monitor_potential_seller_collusion" instance="Forter\RecommendationsHandler\Observer\MonitorPotentialSellerCollusionObserver"/>
+    </event>
+    -->
+
+    <!-- Uncomment for enabling the observer for ROUTING_RECOMMENDED recommendation
+    <event name="forter_recommendation_routing_recommended">
+      <observer name="forter_recommendation_routing_recommended" instance="Forter\RecommendationsHandler\Observer\RoutingRecommendedObserver"/>
+    </event>
+    -->
+
+</config>
